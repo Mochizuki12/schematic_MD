@@ -217,7 +217,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -311,6 +311,22 @@
     [
       "3152684b-d11f-4a9a-8e6c-09965044adbd",
       ""
+    ],
+    [
+      "878f32b7-0d3d-4f49-a9dc-ebc0f2e1c793",
+      "STM32F405"
+    ],
+    [
+      "c42baef9-5835-4e28-8d2a-6c2cc5412fde",
+      "Driver"
+    ],
+    [
+      "d6563a9b-6b27-49bf-ae38-0382291b0c3e",
+      "Driver1"
+    ],
+    [
+      "2d267caf-42fc-44ea-97db-65c2b77a1587",
+      "Logic_power"
     ]
   ],
   "text_variables": {}
