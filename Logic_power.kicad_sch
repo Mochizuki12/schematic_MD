@@ -687,7 +687,7 @@
   (symbol (lib_id "Device:C_Small") (at 124.46 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a68b2c1-8255-437f-98c2-f90a3463aa61)
-    (property "Reference" "C31" (at 127 67.3163 0)
+    (property "Reference" "C4" (at 127 67.3163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1uF" (at 127 69.85 0)
@@ -703,9 +703,6 @@
     (pin "1" (uuid cc68db27-c9fa-416e-938f-ae749151aeea))
     (instances
       (project "schematic_MD"
-        (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/878f32b7-0d3d-4f49-a9dc-ebc0f2e1c793"
-          (reference "C31") (unit 1)
-        )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
           (reference "C4") (unit 1)
         )
@@ -716,7 +713,7 @@
   (symbol (lib_id "Device:C_Small") (at 106.68 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a91d7ef0-b258-402a-86b8-32be416d4f9a)
-    (property "Reference" "C31" (at 104.14 67.3163 0)
+    (property "Reference" "C3" (at 104.14 67.3163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1uF" (at 104.14 69.85 0)
@@ -732,9 +729,6 @@
     (pin "1" (uuid 180c5cd7-0ed9-4798-b26b-4ff309c3c100))
     (instances
       (project "schematic_MD"
-        (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/878f32b7-0d3d-4f49-a9dc-ebc0f2e1c793"
-          (reference "C31") (unit 1)
-        )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
           (reference "C3") (unit 1)
         )
