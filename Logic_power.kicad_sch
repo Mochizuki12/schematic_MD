@@ -515,8 +515,8 @@
     (property "Datasheet" "~" (at 80.01 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 766be41e-aa86-4eca-bc06-54e6c19d474d))
     (pin "1" (uuid 720905ca-6e37-4b7f-8542-7c14fdb65d1d))
+    (pin "2" (uuid 766be41e-aa86-4eca-bc06-54e6c19d474d))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
@@ -541,8 +541,8 @@
     (property "Datasheet" "~" (at 43.18 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 8b9eaa01-2da1-4d45-8551-66abca47cb03))
     (pin "1" (uuid c703bec7-8700-464a-8286-ead07bcf7aab))
+    (pin "2" (uuid 8b9eaa01-2da1-4d45-8551-66abca47cb03))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
@@ -593,9 +593,9 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/l78m.pdf" (at 53.34 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 7dde9547-86cd-4723-ab5b-c9630ee75f22))
     (pin "2" (uuid 9a319788-091b-4b4d-b3f8-df6b3a1fe2eb))
     (pin "3" (uuid dc8beebf-18aa-4a07-b12b-1d5f6d3e1166))
-    (pin "1" (uuid 7dde9547-86cd-4723-ab5b-c9630ee75f22))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
@@ -620,8 +620,8 @@
     (property "Datasheet" "~" (at 63.5 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d5d47239-8bfc-4377-b664-7a9bb1186f05))
     (pin "1" (uuid c79db3a0-e8d0-4ac7-9d70-85929d6f64a9))
+    (pin "2" (uuid d5d47239-8bfc-4377-b664-7a9bb1186f05))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
@@ -646,8 +646,8 @@
     (property "Datasheet" "https://product.torexsemi.com/system/files/series/xc6206-j.pdf" (at 118.11 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 96bcc848-8437-436b-8ee6-3cb505b1a330))
     (pin "1" (uuid 229f0ef5-cdb1-4696-a3cb-c6da6b2a3fce))
+    (pin "2" (uuid 96bcc848-8437-436b-8ee6-3cb505b1a330))
     (pin "3" (uuid d9f069ef-97b1-4de3-b43f-43d0739927e6))
     (instances
       (project "schematic_MD"
@@ -699,8 +699,8 @@
     (property "Datasheet" "~" (at 124.46 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e5f58bd6-9363-4c81-88f3-6cf9f8f863f0))
     (pin "1" (uuid cc68db27-c9fa-416e-938f-ae749151aeea))
+    (pin "2" (uuid e5f58bd6-9363-4c81-88f3-6cf9f8f863f0))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
@@ -725,8 +725,8 @@
     (property "Datasheet" "~" (at 106.68 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 54371e86-8c9d-4540-8688-598173bb82b4))
     (pin "1" (uuid 180c5cd7-0ed9-4798-b26b-4ff309c3c100))
+    (pin "2" (uuid 54371e86-8c9d-4540-8688-598173bb82b4))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
@@ -751,8 +751,8 @@
     (property "Datasheet" "~" (at 144.78 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid aafd4f24-450b-43ad-ada0-951d75c2d098))
     (pin "1" (uuid 8d8e1ae7-8381-4bea-b8a3-0355e3ec832b))
+    (pin "2" (uuid aafd4f24-450b-43ad-ada0-951d75c2d098))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
