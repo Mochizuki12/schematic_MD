@@ -518,6 +518,10 @@
     [
       "2d267caf-42fc-44ea-97db-65c2b77a1587",
       "Logic_power"
+    ],
+    [
+      "796ce04a-783e-4174-adea-a6f6cdf2f836",
+      "Bootstrap_Power"
     ]
   ],
   "text_variables": {}
