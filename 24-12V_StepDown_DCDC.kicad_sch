@@ -744,15 +744,15 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps5430.pdf" (at 132.08 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid b918b682-255d-4272-885a-814378319872))
-    (pin "4" (uuid 437c1536-3c4d-445d-a18f-709d04adbf9c))
-    (pin "8" (uuid 9ac069f6-f1a9-4513-9712-c7125e17d014))
-    (pin "7" (uuid 59e6579f-0664-427d-987e-83b36d72bfc6))
-    (pin "2" (uuid 0c2b3ab8-401a-4c84-a248-501bb2aaa676))
-    (pin "9" (uuid 9215aac7-9e9e-4890-837f-f0bf8a3b07c2))
     (pin "1" (uuid 484113b4-a5cb-4613-b435-f0f6ec254b3e))
-    (pin "6" (uuid f4e21fd7-d2b9-4b79-a711-ed869f9808eb))
+    (pin "2" (uuid 0c2b3ab8-401a-4c84-a248-501bb2aaa676))
     (pin "3" (uuid b444199a-2cf6-49d8-bbec-7839c7a774f2))
+    (pin "4" (uuid 437c1536-3c4d-445d-a18f-709d04adbf9c))
+    (pin "5" (uuid b918b682-255d-4272-885a-814378319872))
+    (pin "6" (uuid f4e21fd7-d2b9-4b79-a711-ed869f9808eb))
+    (pin "7" (uuid 59e6579f-0664-427d-987e-83b36d72bfc6))
+    (pin "8" (uuid 9ac069f6-f1a9-4513-9712-c7125e17d014))
+    (pin "9" (uuid 9215aac7-9e9e-4890-837f-f0bf8a3b07c2))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd/2d267caf-42fc-44ea-97db-65c2b77a1587"
