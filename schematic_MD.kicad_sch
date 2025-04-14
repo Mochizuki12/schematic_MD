@@ -3039,6 +3039,12 @@
     (property "Datasheet" "~" (at 38.1 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 38.1 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 38.1 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8a273bd3-2bc1-4591-b6d6-20caa8863f55))
     (pin "2" (uuid 484afed9-3364-4fe5-b0b0-a47e139d3468))
     (pin "3" (uuid 0128ac0d-b0cd-4ae9-a6c3-3f6d0bd8f583))
@@ -3055,10 +3061,10 @@
   (symbol (lib_id "Device:C_Polarized") (at 334.01 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 038e1c4e-4ba6-49c3-97ec-08ab0f3db77b)
-    (property "Reference" "C8" (at 337.82 27.94 0)
+    (property "Reference" "C11" (at 337.82 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330u" (at 337.82 30.48 0)
+    (property "Value" "330uF" (at 337.82 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (at 334.9752 33.02 0)
@@ -3067,12 +3073,18 @@
     (property "Datasheet" "~" (at 334.01 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 334.01 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 334.01 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 79bfca0c-96d8-409d-8964-ba30e362c871))
     (pin "2" (uuid 78ca2390-c0db-4787-ace5-bb763650db0c))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C8") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3081,7 +3093,7 @@
   (symbol (lib_id "power:GND2") (at 215.9 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0554e6cc-0c24-433e-aaed-0339a0eb86c4)
-    (property "Reference" "#PWR030" (at 215.9 276.86 0)
+    (property "Reference" "#PWR035" (at 215.9 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 215.9 275.59 0)
@@ -3097,7 +3109,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3106,7 +3118,7 @@
   (symbol (lib_id "Device:R") (at 139.7 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0652d818-18ad-4a3b-8ad6-9d0beca39a0c)
-    (property "Reference" "R55" (at 138.43 181.61 0)
+    (property "Reference" "R14" (at 138.43 181.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 138.43 184.15 0)
@@ -3118,12 +3130,18 @@
     (property "Datasheet" "~" (at 139.7 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 139.7 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 139.7 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7a27bc17-86d7-4fb5-bf78-feff3c60271b))
     (pin "2" (uuid 224fee32-9f20-4f07-83d4-c16926d4254e))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R55") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3132,7 +3150,7 @@
   (symbol (lib_id "power:+3.3V") (at 85.09 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b37cd00-0239-4295-96c4-b0db4ba5ca1a)
-    (property "Reference" "#PWR02" (at 85.09 111.76 0)
+    (property "Reference" "#PWR08" (at 85.09 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 85.09 104.14 0)
@@ -3148,7 +3166,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3157,7 +3175,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 71.12 29.21 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e0cb230-6921-4f27-8d9c-96d4e6c2489d)
-    (property "Reference" "Q9" (at 71.12 20.32 90)
+    (property "Reference" "Q1" (at 71.12 20.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Q_PMOS_GSD" (at 71.12 22.86 90)
@@ -3169,13 +3187,19 @@
     (property "Datasheet" "~" (at 71.12 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C15127" (at 71.12 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "180" (at 71.12 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7fe6edad-40e0-4480-b7d5-0a39445dca74))
     (pin "2" (uuid 0284f647-68fc-4672-a7f2-16325d665b65))
     (pin "3" (uuid 0970e45a-a6ac-4caa-a40e-469f0f70b736))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "Q9") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -3184,7 +3208,7 @@
   (symbol (lib_id "74xx:74HC04") (at 242.57 92.71 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13a4396c-22e6-4b9b-a2f9-15d7bfa30986)
-    (property "Reference" "U1" (at 242.57 85.09 0)
+    (property "Reference" "U2" (at 242.57 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC04" (at 242.57 87.63 0)
@@ -3194,6 +3218,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (at 242.57 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5590" (at 242.57 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "-90" (at 242.57 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1b094880-649b-445f-8eea-873889ee0a4e))
@@ -3213,7 +3243,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "U1") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -3222,7 +3252,7 @@
   (symbol (lib_id "Device:R") (at 120.65 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15621e15-8b33-47cf-b412-01a38706a131)
-    (property "Reference" "R52" (at 119.38 181.61 0)
+    (property "Reference" "R10" (at 119.38 181.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 119.38 184.15 0)
@@ -3234,12 +3264,18 @@
     (property "Datasheet" "~" (at 120.65 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 120.65 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 120.65 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3209bf56-d19a-4107-94e3-90a1a950da0e))
     (pin "2" (uuid e08b7a83-29a7-44ba-939f-ea7aca876f6f))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R52") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3248,10 +3284,10 @@
   (symbol (lib_id "Device:C_Small") (at 138.43 259.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19a576cb-ca40-4215-b60d-8428e2972c6c)
-    (property "Reference" "C2" (at 140.97 257.8163 0)
+    (property "Reference" "C5" (at 140.97 257.8163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1u" (at 139.7 261.62 0)
+    (property "Value" "0.1uF" (at 139.7 261.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 138.43 259.08 0)
@@ -3260,12 +3296,18 @@
     (property "Datasheet" "~" (at 138.43 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C307331" (at 138.43 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 138.43 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c39e19c7-b873-491c-b249-e09b6158868f))
     (pin "2" (uuid d23c541d-c30a-4995-82fc-c246efc2f36a))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3286,6 +3328,12 @@
     (property "Datasheet" "~" (at 173.99 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C2286" (at 173.99 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 173.99 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 79ef7871-17a3-46de-85de-4cf482476af8))
     (pin "2" (uuid b2a1745b-5a2f-4807-ac6e-b9336f7fdd72))
     (instances
@@ -3300,7 +3348,7 @@
   (symbol (lib_id "power:+5V") (at 180.34 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ad7d713-688f-47e6-8063-b45e2d5e539d)
-    (property "Reference" "#PWR028" (at 180.34 68.58 0)
+    (property "Reference" "#PWR026" (at 180.34 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 180.34 59.69 0)
@@ -3316,7 +3364,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3325,7 +3373,7 @@
   (symbol (lib_id "power:GND1") (at 331.47 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b49039c-703c-4f3d-a606-c0155e84ee4e)
-    (property "Reference" "#PWR039" (at 331.47 207.01 0)
+    (property "Reference" "#PWR043" (at 331.47 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 331.47 205.74 0)
@@ -3341,7 +3389,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -3350,7 +3398,7 @@
   (symbol (lib_id "power:+5V") (at 157.48 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f47a8a6-78ed-4454-8c08-458ac4abc9bf)
-    (property "Reference" "#PWR023" (at 157.48 68.58 0)
+    (property "Reference" "#PWR021" (at 157.48 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 157.48 59.69 0)
@@ -3366,7 +3414,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3375,7 +3423,7 @@
   (symbol (lib_id "power:GND1") (at 187.96 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 213d3dfb-a92f-4613-8b71-e63f802da90a)
-    (property "Reference" "#PWR021" (at 187.96 276.86 0)
+    (property "Reference" "#PWR029" (at 187.96 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 187.96 275.59 0)
@@ -3391,7 +3439,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -3400,7 +3448,7 @@
   (symbol (lib_id "power:GND1") (at 52.07 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 226152c1-257b-4932-887e-0eeb35f2fa97)
-    (property "Reference" "#PWR07" (at 52.07 111.76 0)
+    (property "Reference" "#PWR03" (at 52.07 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 52.07 109.22 0)
@@ -3416,7 +3464,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3425,7 +3473,7 @@
   (symbol (lib_id "power:GND1") (at 331.47 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 236e2217-04b5-4e17-9d2d-95ea95ee3955)
-    (property "Reference" "#PWR037" (at 331.47 142.24 0)
+    (property "Reference" "#PWR041" (at 331.47 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 331.47 140.97 0)
@@ -3441,7 +3489,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3460,6 +3508,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 97.79 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 97.79 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3dc060e5-e08b-43f3-9c21-8a4a18b85180))
@@ -3485,7 +3539,7 @@
   (symbol (lib_id "power:+12V") (at 201.93 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23f41901-8230-49ec-8af3-9a965ef8b91e)
-    (property "Reference" "#PWR026" (at 201.93 254 0)
+    (property "Reference" "#PWR030" (at 201.93 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 201.93 246.38 0)
@@ -3501,7 +3555,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3510,7 +3564,7 @@
   (symbol (lib_id "power:GND1") (at 186.69 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25f6aaf6-24f5-47eb-b522-e1c66a5658df)
-    (property "Reference" "#PWR031" (at 186.69 83.82 0)
+    (property "Reference" "#PWR027" (at 186.69 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 186.69 81.28 0)
@@ -3526,7 +3580,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3538,13 +3592,19 @@
     (property "Reference" "C6" (at 222.25 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1u" (at 222.25 68.58 0)
+    (property "Value" "0.1uF" (at 222.25 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 223.52 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 223.52 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 223.52 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 223.52 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fecce63b-8318-40f3-b4a8-f59d073e1332))
@@ -3555,7 +3615,7 @@
           (reference "C6") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C62") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -3576,6 +3636,12 @@
     (property "Datasheet" "~" (at 379.73 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 379.73 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 379.73 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d56045e4-b4e1-4419-88da-0f24ad93f604))
     (pin "2" (uuid f07e2580-9248-4817-8ea2-d21967d9548b))
     (instances
@@ -3590,7 +3656,7 @@
   (symbol (lib_id "power:GND1") (at 163.83 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dcdc726-1ab2-43ba-8fd7-cc00f6dff5af)
-    (property "Reference" "#PWR025" (at 163.83 83.82 0)
+    (property "Reference" "#PWR022" (at 163.83 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 163.83 81.28 0)
@@ -3606,7 +3672,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3615,7 +3681,7 @@
   (symbol (lib_id "power:GND1") (at 91.44 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32399588-9ce5-4e5f-af01-814e6ecbc0c1)
-    (property "Reference" "#PWR066" (at 91.44 53.34 0)
+    (property "Reference" "#PWR09" (at 91.44 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 91.44 50.8 0)
@@ -3631,7 +3697,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3652,6 +3718,12 @@
     (property "Datasheet" "~" (at 119.38 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 119.38 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 119.38 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ec78c0c2-dcef-4cfc-8a67-fa46dc27a774))
     (pin "2" (uuid 20623d79-8849-44a1-b9c8-e9b84829faa2))
     (instances
@@ -3660,7 +3732,7 @@
           (reference "R10") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3669,7 +3741,7 @@
   (symbol (lib_id "Device:R") (at 187.96 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36ea9830-6a13-4db9-8dd4-ee84618be63c)
-    (property "Reference" "R4" (at 190.5 255.27 0)
+    (property "Reference" "R22" (at 190.5 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680" (at 190.5 257.81 0)
@@ -3681,12 +3753,18 @@
     (property "Datasheet" "~" (at 187.96 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C23228" (at 187.96 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 187.96 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c7705dc4-dc3d-456f-bc2f-a820f2e99436))
     (pin "2" (uuid 28ac2be6-aac2-4c5a-85fe-62f1aa96c2a5))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R4") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3695,7 +3773,7 @@
   (symbol (lib_id "power:+3.3V") (at 71.12 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36f24779-742d-47b4-aadb-f2a74f800c5c)
-    (property "Reference" "#PWR09" (at 71.12 137.16 0)
+    (property "Reference" "#PWR05" (at 71.12 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 71.12 129.54 0)
@@ -3711,7 +3789,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3720,7 +3798,7 @@
   (symbol (lib_id "Device:R") (at 133.35 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 370e855b-6482-491e-ab5a-3901007c8f5e)
-    (property "Reference" "R54" (at 132.08 181.61 0)
+    (property "Reference" "R13" (at 132.08 181.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 132.08 184.15 0)
@@ -3732,12 +3810,18 @@
     (property "Datasheet" "~" (at 133.35 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 133.35 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 133.35 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8649c7fe-1551-4f9b-bedc-b1fda2598cee))
     (pin "2" (uuid b83f911a-4797-4e80-a252-796819b84c6a))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R54") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3758,6 +3842,12 @@
     (property "Datasheet" "~" (at 187.96 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C2286" (at 187.96 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 187.96 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 67edefb0-2db1-4f8c-87f3-67e4472f6bfa))
     (pin "2" (uuid 604690f1-359b-4796-a3ae-12161be46b2e))
     (instances
@@ -3772,7 +3862,7 @@
   (symbol (lib_id "power:Vdrive") (at 303.53 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38f74293-3051-4a1b-8bc6-d18a03363365)
-    (property "Reference" "#PWR068" (at 298.45 58.42 0)
+    (property "Reference" "#PWR037" (at 298.45 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 303.53 50.8 0)
@@ -3788,7 +3878,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3797,7 +3887,7 @@
   (symbol (lib_id "Device:R") (at 127 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b73243c-8b0c-4afd-b7c4-eeb5cc3301fa)
-    (property "Reference" "R53" (at 125.73 181.61 0)
+    (property "Reference" "R12" (at 125.73 181.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 125.73 184.15 0)
@@ -3809,12 +3899,18 @@
     (property "Datasheet" "~" (at 127 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 127 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 127 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e7b10a51-0c4c-4369-884f-3794ed471ab0))
     (pin "2" (uuid a5d34538-c672-417b-a161-5b38b1d26a4d))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R53") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3823,7 +3919,7 @@
   (symbol (lib_id "power:GND2") (at 340.36 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ea0236a-2bf8-478d-b725-aad81c8c4921)
-    (property "Reference" "#PWR043" (at 340.36 207.01 0)
+    (property "Reference" "#PWR047" (at 340.36 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 340.36 205.74 0)
@@ -3839,7 +3935,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -3851,13 +3947,19 @@
     (property "Reference" "C6" (at 100.33 184.15 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1u" (at 100.33 181.61 0)
+    (property "Value" "0.1uF" (at 100.33 181.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 101.6 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C307331" (at 101.6 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 101.6 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 24320f25-026a-4c4e-9544-56483a12fcb3))
@@ -3868,7 +3970,7 @@
           (reference "C6") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C59") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3889,6 +3991,12 @@
     (property "Datasheet" "~" (at 191.77 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 191.77 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 191.77 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4ef57997-e766-4b1f-900e-87dd21dfb536))
     (pin "2" (uuid 46025786-9860-4a44-818e-89515266c292))
     (pin "3" (uuid 59ed2d9e-2777-4f7d-94e1-15817ce434d9))
@@ -3906,7 +4014,7 @@
   (symbol (lib_id "power:GND2") (at 303.53 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4803a7d6-7e7f-472e-96aa-cdb95a71a104)
-    (property "Reference" "#PWR034" (at 303.53 43.18 0)
+    (property "Reference" "#PWR036" (at 303.53 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 303.53 41.91 0)
@@ -3922,7 +4030,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3943,6 +4051,12 @@
     (property "Datasheet" "~" (at 125.73 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 125.73 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 125.73 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cb65ad05-b269-4bee-861a-a0df9e6a1c4c))
     (pin "2" (uuid e99a92ec-21c1-4e28-99a4-fc0c3948ec50))
     (instances
@@ -3951,7 +4065,7 @@
           (reference "R9") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R9") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3960,10 +4074,10 @@
   (symbol (lib_id "Device:C_Small") (at 58.42 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a2bb3ef-f938-4108-a642-c165221ceab8)
-    (property "Reference" "C60" (at 55.88 30.4863 0)
+    (property "Reference" "C1" (at 55.88 30.4863 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1u" (at 57.15 34.29 0)
+    (property "Value" "0.1uF" (at 57.15 34.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 58.42 31.75 0)
@@ -3972,12 +4086,18 @@
     (property "Datasheet" "~" (at 58.42 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C307331" (at 58.42 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 58.42 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 58170c1f-18a0-46d9-92b5-5a6a1bab2eac))
     (pin "2" (uuid b96f7319-a5c8-4fbd-83c4-df335a53d3b6))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C60") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3986,7 +4106,7 @@
   (symbol (lib_id "power:Vdrive") (at 215.9 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f9306c4-1ef3-47bf-91bd-74dbff8099c0)
-    (property "Reference" "#PWR029" (at 210.82 254 0)
+    (property "Reference" "#PWR034" (at 210.82 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 215.9 246.38 0)
@@ -4002,7 +4122,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4023,6 +4143,12 @@
     (property "Datasheet" "~" (at 208.28 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C15849" (at 208.28 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 208.28 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 137732b7-0840-4aca-9c84-8b45572aa60e))
     (pin "2" (uuid c4e79f33-3d76-476d-832d-280172fbaf58))
     (instances
@@ -4031,7 +4157,7 @@
           (reference "C31") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4040,7 +4166,7 @@
   (symbol (lib_id "Device:R") (at 167.64 208.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53f25c17-b760-4b85-b8a9-513c014298a5)
-    (property "Reference" "R58" (at 168.91 207.01 0)
+    (property "Reference" "R17" (at 168.91 207.01 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (at 166.37 207.01 0)
@@ -4052,12 +4178,18 @@
     (property "Datasheet" "~" (at 167.64 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C17168" (at 167.64 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 167.64 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d3c2d24c-865a-4d5e-b0a3-1936f543dfe4))
     (pin "2" (uuid fc31b742-5113-4626-a307-3c2f5d84d84d))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R58") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -4066,7 +4198,7 @@
   (symbol (lib_id "74xx:74HC04") (at 242.57 109.22 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 549b98d8-cf10-4151-ae15-88dffd153bb2)
-    (property "Reference" "U1" (at 242.57 100.33 0)
+    (property "Reference" "U2" (at 242.57 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC04" (at 242.57 102.87 0)
@@ -4076,6 +4208,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (at 242.57 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5590" (at 242.57 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "-90" (at 242.57 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f8e74786-9566-4a78-9ff8-f3ce1fa7b497))
@@ -4095,7 +4233,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "U1") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -4116,6 +4254,12 @@
     (property "Datasheet" "~" (at 383.54 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 383.54 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 383.54 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c244f345-dbee-451b-b299-301198de7184))
     (instances
       (project "schematic_MD"
@@ -4129,7 +4273,7 @@
   (symbol (lib_id "power:+3.3V") (at 331.47 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5eb29417-976f-4caf-a889-059528a09530)
-    (property "Reference" "#PWR036" (at 331.47 93.98 0)
+    (property "Reference" "#PWR040" (at 331.47 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 331.47 86.36 0)
@@ -4145,7 +4289,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4154,7 +4298,7 @@
   (symbol (lib_id "power:GND1") (at 201.93 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6165f187-7d98-4888-b2cd-54b926c70bfc)
-    (property "Reference" "#PWR027" (at 201.93 276.86 0)
+    (property "Reference" "#PWR031" (at 201.93 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 201.93 275.59 0)
@@ -4170,7 +4314,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4179,7 +4323,7 @@
   (symbol (lib_id "power:+3.3V") (at 173.99 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6547e412-e33e-4af4-8da4-0a362afd21f2)
-    (property "Reference" "#PWR015" (at 173.99 254 0)
+    (property "Reference" "#PWR024" (at 173.99 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 173.99 246.38 0)
@@ -4195,7 +4339,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4204,7 +4348,7 @@
   (symbol (lib_id "Device:R") (at 114.3 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66815ae7-ac73-4951-a823-b39286999781)
-    (property "Reference" "R51" (at 113.03 181.61 0)
+    (property "Reference" "R8" (at 113.03 181.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 113.03 184.15 0)
@@ -4216,12 +4360,18 @@
     (property "Datasheet" "~" (at 114.3 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 114.3 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 114.3 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid bf49909d-42d1-4fd7-83fa-602894675e1a))
     (pin "2" (uuid 5d86b1e7-acf9-4948-b992-07e39b0dd0c2))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R51") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4242,6 +4392,12 @@
     (property "Datasheet" "~" (at 38.1 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 38.1 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 38.1 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 74648ca3-08c3-44bb-bd6f-d60c70a9d841))
     (pin "2" (uuid 5036a35e-a350-4292-9270-262ee009bb00))
     (pin "3" (uuid 8e9046fa-47b1-4e47-bb44-5aae17b5069b))
@@ -4258,10 +4414,10 @@
   (symbol (lib_id "Device:C_Polarized") (at 91.44 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bca488a-ca85-4070-b680-7b9b5e79e28b)
-    (property "Reference" "C1" (at 95.25 33.02 0)
+    (property "Reference" "C3" (at 95.25 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47u" (at 95.25 35.56 0)
+    (property "Value" "47uF" (at 95.25 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 92.4052 38.1 0)
@@ -4270,12 +4426,18 @@
     (property "Datasheet" "~" (at 91.44 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 91.44 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 91.44 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 26f081cb-5148-43a3-9ef2-c6d001394be2))
     (pin "2" (uuid 801fc94a-6c97-43de-989f-b60b9a703b37))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4284,7 +4446,7 @@
   (symbol (lib_id "Device:R") (at 93.98 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ce85a56-923e-4af3-88ae-2a17b34af6ac)
-    (property "Reference" "R66" (at 92.71 232.41 0)
+    (property "Reference" "R5" (at 92.71 232.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 92.71 234.95 0)
@@ -4296,12 +4458,18 @@
     (property "Datasheet" "~" (at 93.98 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 93.98 233.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 93.98 233.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3a08ea6b-7b85-4bf4-ab89-caf9690ccafb))
     (pin "2" (uuid 66091397-7940-4b03-a8d1-31441daa1848))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R66") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4313,13 +4481,19 @@
     (property "Reference" "C6" (at 214.63 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1u" (at 214.63 68.58 0)
+    (property "Value" "0.1uF" (at 214.63 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 215.9 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 215.9 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 215.9 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 215.9 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7c28b1fd-b343-442b-8664-831db5eb2ecd))
@@ -4330,7 +4504,7 @@
           (reference "C6") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4339,7 +4513,7 @@
   (symbol (lib_id "power:+3.3V") (at 165.1 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f9f8f99-fff6-4aee-9d63-6a0f32a6eb96)
-    (property "Reference" "#PWR024" (at 165.1 96.52 0)
+    (property "Reference" "#PWR023" (at 165.1 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 165.1 88.9 0)
@@ -4355,7 +4529,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4389,7 +4563,7 @@
   (symbol (lib_id "power:GND2") (at 303.53 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75b7d876-4dbd-4d5d-9678-f907aed05c16)
-    (property "Reference" "#PWR046" (at 303.53 80.01 0)
+    (property "Reference" "#PWR038" (at 303.53 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 303.53 78.74 0)
@@ -4405,7 +4579,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4414,7 +4588,7 @@
   (symbol (lib_id "Device:R") (at 167.64 227.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77a510a1-04e2-4a0f-b96a-585dbc94adf5)
-    (property "Reference" "R61" (at 168.91 226.06 0)
+    (property "Reference" "R20" (at 168.91 226.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (at 166.37 226.06 0)
@@ -4426,12 +4600,18 @@
     (property "Datasheet" "~" (at 167.64 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C17168" (at 167.64 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 167.64 227.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7a373b2b-3ef4-45f4-9222-f35ac006dac7))
     (pin "2" (uuid bc3bf22a-90a6-41ed-bb97-72e1f6f68094))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R61") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -4440,7 +4620,7 @@
   (symbol (lib_id "power:GND1") (at 93.98 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7801c9c6-ef47-46a6-bda4-8cdc21517c29)
-    (property "Reference" "#PWR05" (at 93.98 247.65 0)
+    (property "Reference" "#PWR010" (at 93.98 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 93.98 246.38 0)
@@ -4456,7 +4636,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4477,6 +4657,12 @@
     (property "Datasheet" "~" (at 215.9 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C2286" (at 215.9 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 215.9 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2819270d-50aa-42d8-a310-6643639a7c0f))
     (pin "2" (uuid 19847ce9-5508-4412-b134-554ad9d19019))
     (instances
@@ -4491,7 +4677,7 @@
   (symbol (lib_id "power:GND1") (at 130.81 271.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bdf1fe0-01c4-442e-9901-a9e1d038a222)
-    (property "Reference" "#PWR08" (at 130.81 278.13 0)
+    (property "Reference" "#PWR018" (at 130.81 278.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 130.81 276.86 0)
@@ -4507,7 +4693,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4528,6 +4714,12 @@
     (property "Datasheet" "~" (at 106.68 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 106.68 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 106.68 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cc0d0641-1990-4e61-abbf-7edb189abde6))
     (pin "2" (uuid 84b927cf-b803-4972-9587-ddbc7e091d87))
     (instances
@@ -4536,7 +4728,7 @@
           (reference "R12") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R12") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4557,6 +4749,12 @@
     (property "Datasheet" "~" (at 50.8 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C22787" (at 50.8 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 50.8 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ca3cdeff-d644-40cf-b240-a475aef87914))
     (pin "2" (uuid 746b477a-14f5-48d1-9558-83378aab2448))
     (instances
@@ -4571,7 +4769,7 @@
   (symbol (lib_id "power:GND2") (at 340.36 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ef8e7a2-5f1e-4b85-9e68-3ed11926f2e9)
-    (property "Reference" "#PWR041" (at 340.36 142.24 0)
+    (property "Reference" "#PWR045" (at 340.36 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 340.36 140.97 0)
@@ -4587,7 +4785,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -4596,7 +4794,7 @@
   (symbol (lib_id "Device:R") (at 201.93 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f366ad3-eb09-47b1-b655-b734d03124fe)
-    (property "Reference" "R5" (at 204.47 255.27 0)
+    (property "Reference" "R23" (at 204.47 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 204.47 257.81 0)
@@ -4608,12 +4806,18 @@
     (property "Datasheet" "~" (at 201.93 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C22975" (at 201.93 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 201.93 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4c2f074b-ee28-498f-973f-76e4098eecea))
     (pin "2" (uuid f6dac98e-94b7-48df-93f7-fafc9bddb7af))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R5") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -4622,7 +4826,7 @@
   (symbol (lib_id "power:GND1") (at 71.12 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 823faa7c-e0fc-4b9c-9234-858a2aa3288c)
-    (property "Reference" "#PWR010" (at 71.12 171.45 0)
+    (property "Reference" "#PWR06" (at 71.12 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 71.12 170.18 0)
@@ -4638,7 +4842,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4647,7 +4851,7 @@
   (symbol (lib_id "Device:R") (at 167.64 214.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8361ecf5-41e7-4429-920d-f3c6bda3d16e)
-    (property "Reference" "R59" (at 168.91 213.36 0)
+    (property "Reference" "R18" (at 168.91 213.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (at 166.37 213.36 0)
@@ -4659,12 +4863,18 @@
     (property "Datasheet" "~" (at 167.64 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C17168" (at 167.64 214.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 167.64 214.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d716769b-8ddc-4972-bb46-0ebdff390df2))
     (pin "2" (uuid f49be43d-6352-4621-8c9d-c27d7c984e2c))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R59") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4685,6 +4895,12 @@
     (property "Datasheet" "~" (at 297.18 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 297.18 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 297.18 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6c4780cd-e273-44e2-8a32-30e6ad8b39ec))
     (pin "2" (uuid f6ef4488-3c56-4dbf-a0a4-7da2327b8e70))
     (instances
@@ -4699,7 +4915,7 @@
   (symbol (lib_id "power:Vdrive") (at 311.15 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86b185b2-49eb-4a18-a3fd-f04f09e35d40)
-    (property "Reference" "#PWR035" (at 306.07 26.67 0)
+    (property "Reference" "#PWR039" (at 306.07 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 311.15 19.05 0)
@@ -4715,7 +4931,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4736,6 +4952,12 @@
     (property "Datasheet" "~" (at 361.95 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 361.95 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 361.95 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e911f875-21f5-47a6-959b-42fbe332ee0a))
     (instances
       (project "schematic_MD"
@@ -4749,7 +4971,7 @@
   (symbol (lib_id "74xx:74HC04") (at 241.3 173.99 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 882618f6-300a-4194-9472-243fbb6d3996)
-    (property "Reference" "U1" (at 241.3 165.1 0)
+    (property "Reference" "U2" (at 241.3 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC04" (at 241.3 167.64 0)
@@ -4759,6 +4981,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (at 241.3 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5590" (at 241.3 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "-90" (at 241.3 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 24ae87e2-713f-4e87-a4e0-307da27e86b0))
@@ -4778,7 +5006,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "U1") (unit 6)
+          (reference "U2") (unit 6)
         )
       )
     )
@@ -4799,6 +5027,12 @@
     (property "Datasheet" "~" (at 113.03 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 113.03 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 113.03 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e5998c86-ea81-4653-8446-a52315700018))
     (pin "2" (uuid b7707140-2a50-4af4-abc9-940eeac9b9ad))
     (instances
@@ -4807,7 +5041,7 @@
           (reference "R11") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R11") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4816,10 +5050,10 @@
   (symbol (lib_id "Device:C_Polarized") (at 311.15 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 888035f9-8647-423c-9f40-057191b698ab)
-    (property "Reference" "C6" (at 314.96 27.94 0)
+    (property "Reference" "C9" (at 314.96 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330u" (at 314.96 30.48 0)
+    (property "Value" "330uF" (at 314.96 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (at 312.1152 33.02 0)
@@ -4828,12 +5062,18 @@
     (property "Datasheet" "~" (at 311.15 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 311.15 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 311.15 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6c5043c1-eb5f-4165-ab6c-57f121189dc4))
     (pin "2" (uuid 42fd0656-2780-4c85-b8d3-64aca402033b))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C6") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -4842,7 +5082,7 @@
   (symbol (lib_id "Device:R") (at 167.64 220.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9414423d-a026-4f88-bd82-208cf658c258)
-    (property "Reference" "R60" (at 168.91 219.71 0)
+    (property "Reference" "R19" (at 168.91 219.71 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (at 166.37 219.71 0)
@@ -4854,12 +5094,18 @@
     (property "Datasheet" "~" (at 167.64 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C17168" (at 167.64 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 167.64 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 766d7fdf-b737-447c-9b8b-5fa70da41571))
     (pin "2" (uuid 9ec7195d-ff30-41e7-a978-c10ad3fc08d7))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R60") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -4868,10 +5114,10 @@
   (symbol (lib_id "Device:C_Polarized") (at 345.44 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94a6c5d3-34db-4543-9979-948c9424e38d)
-    (property "Reference" "C9" (at 349.25 27.94 0)
+    (property "Reference" "C12" (at 349.25 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330u" (at 349.25 30.48 0)
+    (property "Value" "330uF" (at 349.25 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (at 346.4052 33.02 0)
@@ -4880,12 +5126,18 @@
     (property "Datasheet" "~" (at 345.44 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 345.44 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 345.44 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid de01af54-577f-4b4c-8bd6-c19ac005e6f6))
     (pin "2" (uuid 4a6bf9b6-a3ff-42e6-89bc-e0a4ba5c74fb))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C9") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -4919,7 +5171,7 @@
   (symbol (lib_id "74xx:74HC04") (at 241.3 191.77 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9844cee6-1277-475d-9ac7-b250d2d7ce0f)
-    (property "Reference" "U1" (at 241.3 182.88 0)
+    (property "Reference" "U2" (at 241.3 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC04" (at 241.3 185.42 0)
@@ -4929,6 +5181,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (at 241.3 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5590" (at 241.3 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "-90" (at 241.3 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f8188435-6e25-427d-bebd-c63de6c52fcd))
@@ -4948,7 +5206,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "U1") (unit 5)
+          (reference "U2") (unit 5)
         )
       )
     )
@@ -4957,7 +5215,7 @@
   (symbol (lib_id "power:GND1") (at 68.58 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98ab9681-ad7f-4f5e-a9fe-330de31b5685)
-    (property "Reference" "#PWR045" (at 68.58 69.85 0)
+    (property "Reference" "#PWR04" (at 68.58 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 68.58 68.58 0)
@@ -4973,7 +5231,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4982,7 +5240,7 @@
   (symbol (lib_id "Device:R") (at 215.9 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b2c4ed1-54d7-4e54-8d3b-987c79e5b3f5)
-    (property "Reference" "R6" (at 218.44 255.27 0)
+    (property "Reference" "R24" (at 218.44 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.6k" (at 218.44 257.81 0)
@@ -4994,12 +5252,18 @@
     (property "Datasheet" "~" (at 215.9 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C22980" (at 215.9 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 215.9 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5bbb3d31-5247-48e7-937c-1c86539a5c27))
     (pin "2" (uuid 635e1600-16bf-46d7-b57e-7abc86cccb82))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R6") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -5008,10 +5272,10 @@
   (symbol (lib_id "Device:C_Small") (at 77.47 137.16 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e29d777-484d-43ba-9efb-fadc15ef777b)
-    (property "Reference" "C3" (at 80.01 135.8963 0)
+    (property "Reference" "C2" (at 80.01 135.8963 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1u" (at 80.01 138.43 0)
+    (property "Value" "0.1uF" (at 80.01 138.43 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 77.47 137.16 0)
@@ -5020,12 +5284,18 @@
     (property "Datasheet" "~" (at 77.47 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C307331" (at 77.47 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 77.47 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1994dc7a-52f9-4eff-94ad-cbdf73c10826))
     (pin "2" (uuid ea285b29-885e-4cc2-9236-ddadbcd6a191))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -5034,7 +5304,7 @@
   (symbol (lib_id "Interface_UART:MAX3051") (at 71.12 153.67 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4fb16bc-17bb-4de4-85db-50e89017cb53)
-    (property "Reference" "U2" (at 59.69 142.24 0)
+    (property "Reference" "U1" (at 59.69 142.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MAX3051" (at 59.69 144.78 0)
@@ -5044,6 +5314,12 @@
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf" (at 71.12 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C112005" (at 71.12 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 71.12 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 55d57a35-8902-4b9e-9f10-f7e7e0149553))
@@ -5057,7 +5333,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -5066,7 +5342,7 @@
   (symbol (lib_id "Connector:Micro_SD_Card_Det_Hirose_DM3AT") (at 69.85 203.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7d23552-1583-4e76-8d00-3e6873810227)
-    (property "Reference" "J11" (at 69.215 181.61 0)
+    (property "Reference" "J4" (at 69.215 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Micro_SD_Card_Det_Hirose_DM3AT" (at 69.215 184.15 0)
@@ -5076,6 +5352,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" (at 69.85 205.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C719027" (at 69.85 203.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 69.85 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a012155c-0b37-488b-a136-3b60c36f50e3))
@@ -5092,7 +5374,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "J11") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -5101,7 +5383,7 @@
   (symbol (lib_id "power:GND1") (at 77.47 139.7 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8ae3e93-9534-463b-96bd-fa1b78f944e7)
-    (property "Reference" "#PWR012" (at 77.47 146.05 0)
+    (property "Reference" "#PWR07" (at 77.47 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 77.47 143.51 0)
@@ -5117,7 +5399,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -5151,7 +5433,7 @@
   (symbol (lib_id "power:+12V") (at 49.53 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa214412-7ec8-43c4-b758-800cabf1e72b)
-    (property "Reference" "#PWR03" (at 49.53 25.4 0)
+    (property "Reference" "#PWR02" (at 49.53 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 49.53 17.78 0)
@@ -5167,7 +5449,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -5176,7 +5458,7 @@
   (symbol (lib_id "Device:R") (at 66.04 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa89f355-5631-4c3c-894b-ba74117c8ba4)
-    (property "Reference" "R63" (at 64.77 30.48 0)
+    (property "Reference" "R2" (at 64.77 30.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 64.77 33.02 0)
@@ -5188,12 +5470,18 @@
     (property "Datasheet" "~" (at 66.04 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 66.04 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 66.04 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6a2714cc-7674-4fa9-91e0-dd5899a7a6c3))
     (pin "2" (uuid 164e7129-b08b-4f03-9238-48e9904e2555))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R63") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -5202,10 +5490,10 @@
   (symbol (lib_id "Device:C_Polarized") (at 322.58 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af263d95-1c6a-43f1-94b7-431e6fb14eb7)
-    (property "Reference" "C7" (at 326.39 27.94 0)
+    (property "Reference" "C10" (at 326.39 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330u" (at 326.39 30.48 0)
+    (property "Value" "330uF" (at 326.39 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (at 323.5452 33.02 0)
@@ -5214,12 +5502,18 @@
     (property "Datasheet" "~" (at 322.58 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 322.58 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 322.58 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 10cdcb8e-07df-4005-b985-23de1872e9f6))
     (pin "2" (uuid 86bd0bae-1928-497c-8c28-1c698909310d))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "C7") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -5228,7 +5522,7 @@
   (symbol (lib_id "74xx:74HC04") (at 241.3 157.48 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b09c219a-e0d9-4980-a5ef-296f0503315b)
-    (property "Reference" "U1" (at 241.3 149.86 0)
+    (property "Reference" "U2" (at 241.3 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC04" (at 241.3 152.4 0)
@@ -5238,6 +5532,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (at 241.3 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5590" (at 241.3 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "-90" (at 241.3 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1b094880-649b-445f-8eea-873889ee0a52))
@@ -5257,7 +5557,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "U1") (unit 4)
+          (reference "U2") (unit 4)
         )
       )
     )
@@ -5266,7 +5566,7 @@
   (symbol (lib_id "74xx:74HC04") (at 242.57 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5c89e42-de17-4f8b-8f96-b0008f2ff9bd)
-    (property "Reference" "U1" (at 242.57 118.11 0)
+    (property "Reference" "U2" (at 242.57 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC04" (at 242.57 120.65 0)
@@ -5276,6 +5576,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (at 242.57 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5590" (at 242.57 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "-90" (at 242.57 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f3079ddf-de19-42fe-83c6-e1d645e17243))
@@ -5295,7 +5601,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -5304,7 +5610,7 @@
   (symbol (lib_id "power:GND1") (at 173.99 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b84c1ce1-8396-4635-96e4-1da428c32b6a)
-    (property "Reference" "#PWR016" (at 173.99 276.86 0)
+    (property "Reference" "#PWR025" (at 173.99 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 173.99 275.59 0)
@@ -5320,7 +5626,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5329,7 +5635,7 @@
   (symbol (lib_id "Device:R") (at 71.12 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b84fc714-31af-4b2c-8e17-1807372ee7af)
-    (property "Reference" "R62" (at 69.85 45.72 0)
+    (property "Reference" "R3" (at 69.85 45.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 69.85 48.26 0)
@@ -5341,12 +5647,18 @@
     (property "Datasheet" "~" (at 71.12 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C25744" (at 71.12 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 71.12 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 014aa8b3-a95a-41ed-af3a-a8527063740b))
     (pin "2" (uuid 13380ef3-9555-4f8d-a547-245043c33569))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R62") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -5355,7 +5667,7 @@
   (symbol (lib_id "Device:R") (at 83.82 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbd1c7fe-debb-4f88-a548-76dd422cbf75)
-    (property "Reference" "R2" (at 82.55 33.02 0)
+    (property "Reference" "R4" (at 82.55 33.02 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 82.55 35.56 0)
@@ -5367,12 +5679,18 @@
     (property "Datasheet" "~" (at 83.82 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C17902" (at 83.82 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 83.82 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cbfcdf40-6701-4ede-bfa9-172480c2c913))
     (pin "2" (uuid b02efca2-b27f-4cac-9ed4-8f3dbd05fb99))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5381,7 +5699,7 @@
   (symbol (lib_id "Device:R") (at 167.64 195.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdd3c5f0-d1e2-4dcb-a3ae-ee04b340d864)
-    (property "Reference" "R56" (at 168.91 194.31 0)
+    (property "Reference" "R15" (at 168.91 194.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (at 166.37 194.31 0)
@@ -5393,12 +5711,18 @@
     (property "Datasheet" "~" (at 167.64 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C17168" (at 167.64 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 167.64 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 24fb285b-2361-46ce-a3c3-fb57939417ee))
     (pin "2" (uuid 684dc50d-ed20-4958-9c1b-f4805decd9f2))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R56") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -5417,6 +5741,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 378.46 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 378.46 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 378.46 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c2ea0ea0-4339-4ece-b241-57baaa62bb3a))
@@ -5445,6 +5775,12 @@
     (property "Datasheet" "~" (at 383.54 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 383.54 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 383.54 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 62f84948-7acb-45a3-b382-1b9239a79b5a))
     (instances
       (project "schematic_MD"
@@ -5458,7 +5794,7 @@
   (symbol (lib_id "power:GND1") (at 101.6 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c71bc13e-62c6-4244-80ab-dfa463d83699)
-    (property "Reference" "#PWR019" (at 101.6 226.06 0)
+    (property "Reference" "#PWR011" (at 101.6 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 101.6 224.79 0)
@@ -5474,7 +5810,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5493,6 +5829,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 118.11 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 118.11 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d22b4d61-e634-40e7-8398-f3e320f6e5a9))
@@ -5521,7 +5863,7 @@
   (symbol (lib_id "power:GND1") (at 106.68 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8064113-1c99-4340-b182-433879322842)
-    (property "Reference" "#PWR011" (at 106.68 54.61 0)
+    (property "Reference" "#PWR012" (at 106.68 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 106.68 53.34 0)
@@ -5537,7 +5879,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5546,7 +5888,7 @@
   (symbol (lib_id "power:+3.3V") (at 139.7 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cce402c2-7042-495a-bae4-3cb69fd5bf50)
-    (property "Reference" "#PWR018" (at 139.7 38.1 0)
+    (property "Reference" "#PWR020" (at 139.7 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 139.7 30.48 0)
@@ -5562,7 +5904,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5596,7 +5938,7 @@
   (symbol (lib_id "power:GND1") (at 43.18 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d065048a-f7b5-4fa0-b63a-333a7c8cff81)
-    (property "Reference" "#PWR06" (at 43.18 199.39 0)
+    (property "Reference" "#PWR01" (at 43.18 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 43.18 198.12 0)
@@ -5612,7 +5954,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -5621,7 +5963,7 @@
   (symbol (lib_id "power:Vdrive") (at 340.36 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0668c9e-b829-4e93-aa6d-0c58d4c1a7fd)
-    (property "Reference" "#PWR040" (at 335.28 93.98 0)
+    (property "Reference" "#PWR044" (at 335.28 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 340.36 86.36 0)
@@ -5637,7 +5979,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -5646,7 +5988,7 @@
   (symbol (lib_id "power:+5V") (at 139.7 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d164aa2c-4ad7-45c1-9c3a-e682a0a9f6da)
-    (property "Reference" "#PWR017" (at 139.7 26.67 0)
+    (property "Reference" "#PWR019" (at 139.7 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 139.7 17.78 0)
@@ -5662,7 +6004,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -5683,6 +6025,12 @@
     (property "Datasheet" "~" (at 168.91 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 168.91 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 168.91 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 50672256-4b5c-418e-bc84-1ef367b6f062))
     (pin "2" (uuid 265f3461-238f-4877-8796-0ccc847cb03e))
     (pin "3" (uuid 6d85445c-88c1-4c01-8b60-8d8bc265d831))
@@ -5700,7 +6048,7 @@
   (symbol (lib_id "Device:R") (at 173.99 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8e68b47-93cc-4ad0-be31-bd69d5e7787a)
-    (property "Reference" "R3" (at 176.53 255.27 0)
+    (property "Reference" "R21" (at 176.53 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 176.53 257.81 0)
@@ -5712,12 +6060,18 @@
     (property "Datasheet" "~" (at 173.99 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C23138" (at 173.99 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 173.99 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f01990e7-8875-4708-baed-ae527a7a7c90))
     (pin "2" (uuid b9f27b55-c819-41da-9e0f-213c6dbb04a5))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R3") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -5726,7 +6080,7 @@
   (symbol (lib_id "power:+3.3V") (at 331.47 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbe849c1-f3fa-4d03-9dc1-9b26fcb8b48a)
-    (property "Reference" "#PWR038" (at 331.47 158.75 0)
+    (property "Reference" "#PWR042" (at 331.47 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 331.47 151.13 0)
@@ -5742,7 +6096,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -5751,7 +6105,7 @@
   (symbol (lib_id "Device:R") (at 167.64 201.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de5e32a5-747f-4786-a2c7-c563f993c306)
-    (property "Reference" "R57" (at 168.91 200.66 0)
+    (property "Reference" "R16" (at 168.91 200.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0" (at 166.37 200.66 0)
@@ -5763,12 +6117,18 @@
     (property "Datasheet" "~" (at 167.64 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C17168" (at 167.64 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 167.64 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 278fd59c-6f94-4786-aac4-4972363cfff7))
     (pin "2" (uuid aebc29c3-50c9-47db-bbed-d7134fc135c5))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "R57") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -5789,6 +6149,12 @@
     (property "Datasheet" "~" (at 361.95 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 361.95 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 361.95 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0d5cdd1f-9f74-46d5-a507-be8d8c080a13))
     (instances
       (project "schematic_MD"
@@ -5802,7 +6168,7 @@
   (symbol (lib_id "74xx:74HC04") (at 130.81 259.08 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5c565df-e730-4414-92c1-473baf0d42a1)
-    (property "Reference" "U1" (at 120.65 247.65 0)
+    (property "Reference" "U2" (at 120.65 247.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC04" (at 120.65 250.19 0)
@@ -5812,6 +6178,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (at 130.81 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5590" (at 130.81 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "-90" (at 130.81 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1b094880-649b-445f-8eea-873889ee0a51))
@@ -5831,7 +6203,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "U1") (unit 7)
+          (reference "U2") (unit 7)
         )
       )
     )
@@ -5850,6 +6222,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 50.8 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 50.8 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3cb1d9fb-1389-488a-994d-d7d1de569071))
@@ -5885,7 +6263,7 @@
           (reference "#PWR064") (unit 1)
         )
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5894,7 +6272,7 @@
   (symbol (lib_id "power:Vdrive") (at 340.36 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid edbd81b3-11d5-44f9-ba2a-79c17ebfd891)
-    (property "Reference" "#PWR042" (at 335.28 158.75 0)
+    (property "Reference" "#PWR046" (at 335.28 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Vdrive" (at 340.36 151.13 0)
@@ -5910,7 +6288,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -5931,6 +6309,12 @@
     (property "Datasheet" "~" (at 201.93 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C2286" (at 201.93 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 201.93 266.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid adcbda16-3b70-4b22-92eb-e3771d33e1e9))
     (pin "2" (uuid f57d490d-962a-4078-a298-0a1fc05f9ccf))
     (instances
@@ -5945,7 +6329,7 @@
   (symbol (lib_id "power:+3.3V") (at 109.22 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f27e5d4b-a4c6-4558-a8d8-8b66685162b8)
-    (property "Reference" "#PWR022" (at 109.22 172.72 0)
+    (property "Reference" "#PWR016" (at 109.22 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 109.22 165.1 0)
@@ -5961,7 +6345,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5970,7 +6354,7 @@
   (symbol (lib_id "power:+5V") (at 187.96 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f69085dd-6fd7-4c2d-8073-47608a0d4846)
-    (property "Reference" "#PWR020" (at 187.96 254 0)
+    (property "Reference" "#PWR028" (at 187.96 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 187.96 246.38 0)
@@ -5986,7 +6370,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -5995,7 +6379,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 71.12 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fafb5ef4-8e12-4c53-9cc5-0c1c391f7db6)
-    (property "Reference" "SW4" (at 74.93 55.88 90)
+    (property "Reference" "SW1" (at 74.93 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_SPDT" (at 74.93 58.42 90)
@@ -6007,13 +6391,19 @@
     (property "Datasheet" "~" (at 71.12 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 71.12 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "FT Rotation Offset" "" (at 71.12 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b5870ad7-53c5-4ebb-8402-66378034e7d7))
     (pin "2" (uuid 96b25bbc-9452-4354-b603-d1e344cee257))
     (pin "3" (uuid 9e6b4928-3255-4a68-ac8a-4a4a07a92ceb))
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "SW4") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -6022,7 +6412,7 @@
   (symbol (lib_id "power:+3.3V") (at 130.81 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb8cfd37-6fef-40c3-ab50-fae3992b0574)
-    (property "Reference" "#PWR067" (at 130.81 246.38 0)
+    (property "Reference" "#PWR017" (at 130.81 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 130.81 238.76 0)
@@ -6038,7 +6428,7 @@
     (instances
       (project "schematic_MD"
         (path "/3152684b-d11f-4a9a-8e6c-09965044adbd"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
